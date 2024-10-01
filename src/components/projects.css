@@ -1,0 +1,66 @@
+/* 
+ .projects {
+    padding: 60px 0;
+}
+
+.project-item {
+    margin-bottom: 30px;
+}
+
+.project-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+} 
+
+.project-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+.btn {
+    margin-top: 10px;
+}  */
+
+
+.projects {
+    padding: 60px 0;
+    background-image: url('../assets/img/projects.webp'); /* Update with your actual image path */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    color: white; /* Change text color for contrast */
+}
+
+.project-item {
+    margin-bottom: 30px;
+}
+
+.project-card {
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: semi-transparent border */
+    border-radius: 8px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    background: rgba(211, 209, 209, 0.7); /* Optional: dark background for cards */
+}
+
+.project-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+.btn {
+    margin-top: 10px;
+}

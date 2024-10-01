@@ -1,0 +1,73 @@
+.banner {
+    background-image: url('../assets/img/ba.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    padding: 170px 0; /* Adjust padding as needed */
+    color: rgb(10, 10, 10); /* Change text color for better contrast */
+}
+.p{
+    color: black;
+}
+/* .banner {
+    padding: 60px 0;
+    background-color: 
+    text-align: left;
+}
+
+.profile-img {
+    width: 100%;
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #6c757d; 
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #0056b3; /
+}
+.profile-img {
+    width: 100%; 
+    height: auto; 
+    border-radius:90%; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.profile-img-container {
+    position: relative;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(125, 2, 134, 0.5); /* Dark overlay */
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+}
+
+.profile-img-container:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}

@@ -1,0 +1,46 @@
+/* 
+.achievement-card {
+    background: rgba(0, 0, 0, 0.7); 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.2s;
+    color: #fff; 
+    position: relative; 
+}
+
+.achievement-image {
+    width: 100%; 
+    border-radius: 8px 8px 0 0; 
+    margin-bottom: 15px; 
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+} */
+.achievements {
+    background-image: url('../assets/img/ach.avif'); /* Adjust the path as needed */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0; /* Add some padding for spacing */
+    color: white; /* Adjust text color for better contrast */
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.achievement-card {
+    background: rgba(0, 0, 0, 0.5); /* Optional: adds a translucent background to cards */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.achievement-image {
+    width: 100%;
+    border-radius: 8px;
+}

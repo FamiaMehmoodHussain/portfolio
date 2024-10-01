@@ -1,0 +1,63 @@
+/* .tour {
+    position: relative; 
+    padding: 60px 0; 
+    overflow: hidden; 
+}
+
+.background-image-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: -1; 
+    opacity: 0.5; 
+}
+
+.skill-bx {
+    position: relative; 
+    z-index: 1; 
+    text-align: center; 
+}
+
+.image-slice-card {
+    margin-bottom: 20px; 
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    z-index: 1; 
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #333;
+} */
+
+.rotating-image {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.skill-image {
+    width: 80%; /* Adjust the size as needed */
+    max-width: 400px;
+    opacity: 1; /* Initial opacity */
+    transition: opacity 0.5s ease; /* Smooth transition */
+}
+
